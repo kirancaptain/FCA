@@ -1,0 +1,47 @@
+.img-container {
+  border: none;
+  box-shadow: none !important;
+  padding: 0 0 0 0;
+  /* display: inline; */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  img {
+    border-radius: 50%;
+  }
+
+  mat-chip {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: none;
+    box-shadow: none;
+    background-color: white !important;
+    color: black !important;
+    padding: 0 0 0 0;
+  }
+
+  .name {
+    font-size: 1.2vw;
+  }
+
+  .role {
+    font-size: 1vw !important;
+  }
+
+  mat-chip-list {
+    padding-top: 1%;
+    padding-bottom: 3%;
+  }
+}
+
+mat-card-actions {
+  display: flex;
+  justify-content: center
+}
+
+.main-container {
+  box-shadow: none !important;
+}

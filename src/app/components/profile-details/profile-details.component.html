@@ -1,0 +1,21 @@
+<mat-card class="main-container">
+  <!-- <mat-list> -->
+  <mat-card class="img-container">
+    <img src="assets/avatar.png" height="150">
+    <mat-chip-list>
+      <mat-chip color="primary" class="name">
+        <b>{{userDetails.name}}</b>
+      </mat-chip>
+      <mat-chip class="role">
+        {{userDetails.role}}
+      </mat-chip>
+      
+    </mat-chip-list>
+
+  </mat-card>
+  <mat-divider></mat-divider>
+  <mat-card-actions>
+      <button mat-button mat-raised-button color="primary"><mat-icon>account_circle</mat-icon>&nbsp;View Profile</button>
+      <button mat-button mat-raised-button color="primary" (click)="logoutApp()"><mat-icon>power_settings_new</mat-icon>&nbsp;Log Off</button>
+  </mat-card-actions>
+</mat-card>
